@@ -1,12 +1,14 @@
-
+import { AuthContextProvider } from "./context/AuthContext"
+import MyRoutes from "./routers/routes"
 
 function App() {
 
-
   return (
-    <>
-      <div className="text-white bg-blue-700 font-extrabold">App</div>
-    </>
+
+    <AuthContextProvider>
+      <MyRoutes />
+    </AuthContextProvider>
+
   )
 }
 
