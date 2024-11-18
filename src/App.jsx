@@ -4,11 +4,13 @@ import MyRoutes from "./routers/routes"
 function App() {
 
   return (
-
-    <AuthContextProvider>
-      <MyRoutes />
-    </AuthContextProvider>
-
+    <>
+      <AuthContextProvider>
+        <div className="grid grid-cols-1">
+          <MyRoutes />
+        </div>
+      </AuthContextProvider>
+    </>
   )
 }
 
