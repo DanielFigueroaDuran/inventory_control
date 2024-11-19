@@ -20,3 +20,7 @@ body::-webkit-scrollbar-thumb {
   border-radius: 10px;
   
 }
+
+.active{
+  grid-template-columns: 220px 1fr;
+}
