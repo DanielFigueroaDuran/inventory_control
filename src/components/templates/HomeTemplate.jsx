@@ -1,9 +1,18 @@
-import React from 'react'
-
-const HomeTemplate = () => {
-      return (
-            <div>Home Template</div>
-      )
+import styled from "styled-components";
+export function HomeTemplate() {
+  return (
+    <Container>
+      <h1>Home template</h1>
+    </Container>
+  );
 }
-
-export default HomeTemplate
+const Container = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  background-color: ${(props) => props.theme.bgtotal};
+  color: ${({ theme }) => theme.text};
+  width: 100%;
+`;

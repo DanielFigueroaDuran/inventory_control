@@ -1,9 +1,4 @@
-import HomeTemplate from '../components/templates/HomeTemplate'
-
-const Home = () => {
-      return (
-            <HomeTemplate />
-      )
+import { HomeTemplate } from "../index";
+export function Home() {
+  return (<HomeTemplate/>);
 }
-
-export default Home
