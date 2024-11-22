@@ -5,7 +5,7 @@ import { supabase } from "../supabase/supabase.config";
 export const useAuthStore = create((set, get) => ({
   signInWithEmail: async (params) => {
     const { data, error } = await supabase.auth.signInWithPassword({
-      email: params.correo,
+      email: params.email,
       password: params.pass
     })
     if (error) {
