@@ -1,5 +1,6 @@
 import { Routes, Route } from "react-router-dom";
-import { Home, Login, ProtectedRoute, UserAuth } from "../index.js";
+import { Login, ProtectedRoute, UserAuth } from "../index.js";
+import Home from "../pages/Home.jsx";
 
 export function MyRoutes() {
   const { user } = UserAuth();

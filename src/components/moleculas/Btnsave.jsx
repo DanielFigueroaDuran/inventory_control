@@ -1,13 +1,13 @@
 import styled from "styled-components";
 import { Icono } from "../../index"
-export function Btnsave({ funcion, title, bgcolor, icono, url }) {
+export function Btnsave({ functions, title, bgcolor, icono, url }) {
   return (
     <Container type="submit" $bgcolor={bgcolor}>
 
       <Icono>{icono}</Icono>
 
 
-      <span className="btn" onClick={funcion}>
+      <span className="btn" onClick={functions}>
         <a href={url} target="_blank">
           {title}
         </a>

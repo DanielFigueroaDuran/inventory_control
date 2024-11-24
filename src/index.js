@@ -19,5 +19,7 @@ export * from './utils/dataEstatica';
 export * from './pages/Login';
 export * from './components/templates/LoginTemplate';
 export * from './hooks/ProtectedRoute';
+export * from './store/UsersStore';
+
 
 

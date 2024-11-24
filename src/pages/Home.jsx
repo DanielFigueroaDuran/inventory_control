@@ -1,4 +1,6 @@
 import { HomeTemplate } from "../index";
-export function Home() {
-  return (<HomeTemplate/>);
+function Home() {
+  return (<HomeTemplate />);
 }
+
+export default Home;
