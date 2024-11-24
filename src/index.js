@@ -14,4 +14,7 @@ export * from './styles/breackpoints';
 export * from './styles/themes';
 export * from './styles/variables';
 export * from './supabase/supabase.config';
+export * from './supabase/crudUsers';
 export * from './utils/dataEstatica';
+export * from './components/templates/LoginTemplate';
+
