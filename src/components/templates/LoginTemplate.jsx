@@ -1,8 +1,16 @@
-import React from 'react'
+import { useUsersStorage } from '../../store/UsersStore'
+import { Btnsave } from '../moleculas/Btnsave'
 
 export const LoginTemplate = () => {
+      const { insertAdministratorUser } = useUsersStorage();
+
       return (
-            <div className='text-white'>LoginTemplate</div>
+            <div className=' h-screen flex justify-center items-center'>
+                  <Btnsave
+                        title="Crear Cuenta"
+                        bgcolor="#fff"
+                  />
+            </div>
       )
 }
 
