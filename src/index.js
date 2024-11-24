@@ -16,5 +16,8 @@ export * from './styles/variables';
 export * from './supabase/supabase.config';
 export * from './supabase/crudUsers';
 export * from './utils/dataEstatica';
+export * from './pages/Login';
 export * from './components/templates/LoginTemplate';
+export * from './hooks/ProtectedRoute';
+
 

@@ -1,6 +1,6 @@
-import LoginTemplate from '../components/templates/LoginTemplate'
+import { LoginTemplate } from '../index.js'
 
-const Login = () => {
+export const Login = () => {
       return (
             <div>
                   <LoginTemplate />
@@ -8,4 +8,3 @@ const Login = () => {
       )
 }
 
-export default Login

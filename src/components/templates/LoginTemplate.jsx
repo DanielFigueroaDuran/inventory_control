@@ -2,7 +2,7 @@ import React from 'react'
 
 export const LoginTemplate = () => {
       return (
-            <div>LoginTemplate</div>
+            <div className='text-white'>LoginTemplate</div>
       )
 }
 
