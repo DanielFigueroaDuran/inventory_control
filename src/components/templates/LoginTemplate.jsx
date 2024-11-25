@@ -13,8 +13,8 @@ export const LoginTemplate = () => {
             mutationFn: async () => {
                   try {
                         const params = {
-                              email: "prueba2@gmail.com",
-                              password: "DLD15819045f"
+                              email: "prueba3@gmail.com",
+                              password: "DLD15819045fl"
                         };
                         const result = await insertUserAdmin(params);
 
