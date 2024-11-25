@@ -1,8 +1,13 @@
 import styled from "styled-components";
+import { Btnsave } from "../../components/moleculas/Btnsave";
 export function HomeTemplate() {
   return (
     <Container>
       <h1>Home template</h1>
+      <Btnsave
+        title="Cerrar sesión"
+        bgcolor="#fff"
+      />
     </Container>
   );
 }
