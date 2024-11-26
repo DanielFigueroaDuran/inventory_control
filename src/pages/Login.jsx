@@ -1,9 +1,11 @@
-import { LoginTemplate } from '../index.js'
+//import { LoginTemplate } from '../index.js'
+import { LoginTemplatePrueba } from "../components/templates/LoginTemplatePrueba"
 
 export const Login = () => {
       return (
             <div>
-                  <LoginTemplate />
+                  {/* <LoginTemplate /> */}
+                  <LoginTemplatePrueba />
             </div>
       )
 }

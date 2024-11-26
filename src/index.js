@@ -5,6 +5,7 @@ export * from './components/organismos/MenuHambur';
 export * from './components/organismos/ToggleTema';
 export * from './components/organismos/sidebar/Sidebar';
 export * from './components/organismos/sidebar/SidebarCard';
+// export * from './components/organismos/FooterLogin';
 export * from './components/templates/HomeTemplate';
 export * from './context/AuthContext';
 export * from './main';
@@ -20,6 +21,9 @@ export * from './pages/Login';
 export * from './components/templates/LoginTemplate';
 export * from './hooks/ProtectedRoute';
 export * from './store/UsersStore';
+
+
+
 
 
 
